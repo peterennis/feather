@@ -9,19 +9,13 @@
 
 ## What is Feather?
 
-Feather is a collection of simply beautiful open source icons. Each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency and usability.
+Feather is a collection of simply beautiful open source icons. Each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency, and flexibility.
 
 https://feathericons.com
 
 ```shell
 npm install feather-icons
 ```
-
-**Sponsored by**
-
-<a href="https://stdlib.com">
-  <img src="https://stdlib.com/static/images/stdlib-logo-wordmark-128.png" width="128" />
-</a>
 
 ## Table of Contents
 
@@ -36,7 +30,6 @@ npm install feather-icons
 	* [`feather.icons[name].toSvg()`](#feathericonsnametosvgattrs)
 	* [`feather.replace()`](#featherreplaceattrs)
 	* [(DEPRECATED) `feather.toSvg()`](#deprecated-feathertosvgname-attrs)
-* [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [Related Projects](#related-projects)
 * [License](#license)
@@ -388,14 +381,6 @@ feather.toSvg('circle', { class: 'foo bar' })
 ```
 
 [View Source](https://github.com/colebemis/feather/blob/master/src/to-svg.js)
-
-## Roadmap
-
-- [ ] Write icon design guidelines
-- [ ] Improve SVG accessibility
-- [ ] Handle usage of custom icons
-- [ ] Add usage examples
-- [ ] Make `<feather-icon>` web component
 
 ## Contributing
 
